@@ -24,5 +24,5 @@ const getPassword = () => {
 const savePassword = () => {
   document.title = password.value
   saveButton.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(`password saya: ${document.title}`))
-  saveButton.setAttribute('download', 'MyPWGenerator NAME.txt')
+  saveButton.setAttribute('download', 'MyPWGenerator Saya.txt')
 }
